@@ -10,4 +10,7 @@ Fourth year PhD student in Human Genomics.
 
 - **METR-GT project**
     - [Differential expression analysis](differential_expression_analysis.md)
+        - [DeSeq and EdgeR analysis](notes_on_deseq.md)
     - [Disease eQTL properties](disease_eqtl_properties.md)
+
+
