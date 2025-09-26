@@ -38,9 +38,11 @@ Therefore, the final product after running the 1000 iterations is two sets of me
 ## Results
 
 <img src='images/mean_expression_disease_and_non_disease_egenes.png' width=300>
+
 *Figure 2. Mean expression of eGenes associated with known eye disease genes (TRUE) and non-eye disease genes (FALSE)*
 
 <img src='images/mean_expression_vs_log2afc.png' width=300>
+
 *Figure 3. Mean gene expression plotted against the log2 AFC (effect size) for each NSR eQTL*
 
 <img src='images/bootstrapping_disease_eqtl_properties.png' width=1500>
