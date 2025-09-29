@@ -1,8 +1,38 @@
 # Gene Ontology terms enriched in differentially expressed genes in the neurosensory retina and retinal pigment epithelium
 
 ## Introduction
-Following the deseq and edgeR analysis to identify [differentially expressed genes in the NSR and RPE](notes_on_deseq.md) 
+Following the deseq and edgeR analysis to identify [differentially expressed genes in the NSR and RPE](notes_on_deseq.md) (n = 14,957 differentially expressed genes identified by deseq, of which 7,353 were upregulated in the RPE compared to NSR and 7,604 were downregulated in the RPE compared to the NSR), we wanted to identify what gene ontology biological pathways were enriched in the upregulated genes in each tissue. 
+
 ## Methods
-# 
+To carry out this analysis, I utilised WebGestalt's R API. I ran a Gene Set Enrichment Analysis of the gene ontology biological process terms for the differntially expressed genes between RPE and NSR. The list of differentially expressed genes was used as input, alongside the log2 fold change associated with each gene. The following code was used to run the enrichemnt analysis:
+
+```R
+input_table = read.csv("RPE_vs_NSR_DESEQ_results_all.csv", header = TRUE, sep = ',')
+filter_table = input_table[input_table$padj < 0.05,]
+
+gene_ids_no_suffix = sapply(strsplit(filter_table$X, "\\."), `[`, 1)
+gene_ranks = data.frame(
+  ensembl_gene_id =gene_ids_no_suffix,
+  score =  filter_table$log2FoldChange,
+ stringsAsFactors = FALSE
+)
+
+# Run GSEA for GO Biological Process
+res <- WebGestaltR(
+  enrichMethod      = "GSEA",
+  organism = "hsapiens",
+  enrichDatabase    = "geneontology_Biological_Process",
+  interestGene      = gene_ranks,
+  interestGeneType  = "ensembl_gene_id",
+  fdrMethod         = "BH",
+  sigMethod         = "fdr",
+  sigValue          = 0.05,
+  minNum            = 10,
+  maxNum            = 500,
+  isOutput          = FALSE   # don't generate HTML report
+)
+```
+
+The output was a table with the GO biological process terms enriched in upregulated genes in the RPE (`enrichment score > 0`) and in upregulated genes in the NSR (`enrichment score < 0`).
 ## Results
 
