@@ -33,6 +33,9 @@ res <- WebGestaltR(
 )
 ```
 
-The output was a table with the GO biological process terms enriched in upregulated genes in the RPE (`enrichment score > 0`) and in upregulated genes in the NSR (`enrichment score < 0`).
+As the input table log2 fold change values were relative to the RPE, the output was a table with the GO biological process terms enriched in upregulated genes in the RPE (`enrichment score > 0`) and in upregulated genes in the NSR (`enrichment score < 0`).
+
+The output of WebGestalt was then processed through `rrvgo`, an R package used to calculate the semantic similarity between a set of gene ontology terms, which can be used to cluster similar terms together and select a single representative term for each cluser. The clustering threshold was originally set at 0.7 (medium). 
+
 ## Results
 
