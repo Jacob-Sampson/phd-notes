@@ -65,4 +65,4 @@ Therefore, to select the most reperesentative clusters for this tissue, I select
 
 ### Gene Ontology Biological Process Terms enriched in NSR
 
-The 238 GO BP terms enriched in the NSR were grouped into 27 clusters (optimal clustering threshold = 0.7) with `rrvgo`
+The 238 GO BP terms enriched in the NSR were grouped into 27 clusters (optimal clustering threshold = 0.7) with `rrvgo`. I repeated the same analysis as with the RPE, and the top 20 parent GO terms (arranged by min-pvalue) included parent GO terms such as *cell morphogenesis in neuron diffentiation, synapse organisation* and *regulation of trans-synaptic signalling, neurotransmitter transport*. 
