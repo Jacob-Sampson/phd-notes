@@ -1,5 +1,15 @@
 # Gene Ontology terms enriched in differentially expressed genes in the neurosensory retina and retinal pigment epithelium
 
+<!-- vim-markdown-toc GFM -->
+
+* [Introduction](#introduction)
+* [Methods](#methods)
+* [Results](#results)
+    * [Gene Ontology Biological Process Terms enriched in RPE](#gene-ontology-biological-process-terms-enriched-in-rpe)
+    * [Gene Ontology Biological Process Terms enriched in NSR](#gene-ontology-biological-process-terms-enriched-in-nsr)
+
+<!-- vim-markdown-toc -->
+
 ## Introduction
 Following the deseq and edgeR analysis to identify [differentially expressed genes in the NSR and RPE](notes_on_deseq.md) (n = 14,957 differentially expressed genes identified by deseq, of which 7,353 were upregulated in the RPE compared to NSR and 7,604 were downregulated in the RPE compared to the NSR), we wanted to identify what gene ontology biological pathways were enriched in the upregulated genes in each tissue. 
 
