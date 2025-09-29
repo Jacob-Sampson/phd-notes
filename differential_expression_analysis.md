@@ -45,7 +45,7 @@ The output of WebGestalt was then processed through `rrvgo`, an R package used t
 
 The 987 GO biological process terms enriched in the RPE were grouped into 55 clusters (clustering threshold = 0.8) with `rrvgo`([Fig 1](#fig1)). The significance of each cluster can be described using two metrics: the overall number of GO terms assigned to it (size) and the minimum adjusted p-value of the GO terms within it (min p-value) ([Fig 2](#fig2)).
 
-Therefore, to select the most reperesentative clusters for this tissue, I selected the top 20 clusters based on the minimum p-value and represented the size of these clusters in [Fig 3](#fig3).
+Therefore, to select the most reperesentative clusters for this tissue, I selected the top 20 clusters based on the minimum p-value and represented the size of these clusters in [Fig 3](#fig3). The top hits include parent GO terms such as *positive regulation of immune response, cellular response to lipid, regulation of cell adhesion, epithelial cell proliferation and pigmentation*
 
 <a name="fig1"></a>
 
@@ -62,3 +62,7 @@ Therefore, to select the most reperesentative clusters for this tissue, I select
 <a name="fig3"></a>
 ![fig3](images/top_20_RPE_GO_BP_clusters_freq.png)
 *Figure 3. The number of gene ontology biological process terms assigned to each cluster (threshold = 0.8) enriched in the retinal pigment epithelium for the 20 clusters with the smallest p-value.* 
+
+### Gene Ontology Biological Process Terms enriched in NSR
+
+The 238 GO BP terms enriched in the NSR were grouped into 27 clusters (optimal clustering threshold = 0.7) with `rrvgo`
