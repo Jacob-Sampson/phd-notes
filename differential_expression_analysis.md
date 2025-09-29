@@ -37,6 +37,29 @@ As the input table log2 fold change values were relative to the RPE, the output 
 
 The output of WebGestalt was then processed through `rrvgo`, an R package used to calculate the semantic similarity between a set of gene ontology terms, which can be used to cluster similar terms together and select a single representative term for each cluser. The clustering threshold was originally set at 0.7 (medium). 
 
+```R
+library(rrvgo)
+
+input_go_table_file = '/Users/b65637js/bioinf/deseq/rpe_vs_nsr.differential_expression.GO_BP_GSEA.csv'
+
+input_table = read.csv(input_go_table_file, header = TRUE, sep = ',')
+filtered_table = input_table[input_table$enrichmentScore<0,]
+
+simMatrix = calculateSimMatrix(filtered_table$geneSet,
+                               orgdb = "org.Hs.eg.db",
+                               ont="BP",
+                               method="Rel")
+
+# Scores need to be minus log transformed
+
+scores= setNames(-log10(filtered_table$FDR), filtered_table$geneSet)
+
+reducedTerms = reduceSimMatrix(simMatrix,
+                               'size',
+                               threshold = 0.7,
+                               orgdb = "org.Hs.eg.db")
+```
+
 ## Results
 
 987 GO BP terms were enriched in genes upregulated in the RPE (`FDR < 0.05`) and 238 GO BP terms were enriched in the NSR. 
