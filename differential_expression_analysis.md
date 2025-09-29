@@ -39,3 +39,4 @@ The output of WebGestalt was then processed through `rrvgo`, an R package used t
 
 ## Results
 
+987 GO BP terms were enriched in genes upregulated in the RPE (`FDR < 0.05`) and 238 GO BP terms were enriched in the NSR. 
