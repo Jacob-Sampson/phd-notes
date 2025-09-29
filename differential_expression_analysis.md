@@ -47,9 +47,10 @@ The 987 GO biological process terms enriched in the RPE were grouped into 55 clu
 
 <a name="fig1"></a>
 ![fig1](images/RPE_GO_BP_clusters_freq.png)
-
+*Figure 1. The number of gene ontology biological process terms assigned to each cluster (threshold = 0.8) enriched in the retinal pigment epithelium.*
 <a name="fig2"></a>
 ![fig2](images/RPE_GO_BP_clusters_freq_vs_pval.png)
+*Figure 2. The number of gene ontology biological process terms assigned to each cluster (threshold = 0.8) enriched in the retinal pigment epithelium and the correponding GSEA minimum p-value per cluster* 
 
 
 <a name="fig3"></a>
