@@ -45,4 +45,4 @@ The output of WebGestalt was then processed through `rrvgo`, an R package used t
 
 The 987 GO biological process terms enriched in the RPE were grouped into 55 clusters (clustering threshold = 0.8) with `rrvgo` [Fig 1](fig1). The significance of each cluster can be described using two metrics: the overall number of GO terms assigned to it (size) and the minimum adjusted p-value of the GO terms within it (min p-value). 
 
-![fig1]('images/RPE_GO_BP_clusters_freq.png')
+![fig1](images/RPE_GO_BP_clusters_freq.png)
