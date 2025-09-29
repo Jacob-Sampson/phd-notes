@@ -65,4 +65,22 @@ Therefore, to select the most reperesentative clusters for this tissue, I select
 
 ### Gene Ontology Biological Process Terms enriched in NSR
 
-The 238 GO BP terms enriched in the NSR were grouped into 27 clusters (optimal clustering threshold = 0.7) with `rrvgo`. I repeated the same analysis as with the RPE, and the top 20 parent GO terms (arranged by min-pvalue) included parent GO terms such as *cell morphogenesis in neuron diffentiation, synapse organisation* and *regulation of trans-synaptic signalling, neurotransmitter transport*. 
+The 238 GO BP terms enriched in the NSR were grouped into 27 clusters (optimal clustering threshold = 0.7) with `rrvgo`. I repeated the same analysis as with the RPE, and the top 20 parent GO terms (arranged by min-pvalue) included parent GO terms such as *cell morphogenesis in neuron diffentiation, synapse organisation* and *regulation of trans-synaptic signalling, neurotransmitter transport*. ([Fig 4](#fig4), [Fig 5](#fig5), [Fig 6](#fig6))
+
+<a name="fig4"></a>
+
+![fig4](images/NSR_GO_BP_clusters_freq.png)
+*Figure 4. The number of gene ontology biological process terms assigned to each cluster (threshold = 0.8) enriched in the neurosensory retina.*
+
+
+<a name="fig5"></a>
+
+![fig5](images/NSR_GO_BP_clusters_freq_vs_pval.png)
+*Figure 5. The number of gene ontology biological process terms assigned to each cluster (threshold = 0.8) enriched in the neurosensory retina and the correponding GSEA minimum p-value per cluster* 
+
+
+<a name="fig6"></a>
+![fig6](images/top_20_NSR_GO_BP_clusters_freq.png)
+*Figure 6. The number of gene ontology biological process terms assigned to each cluster (threshold = 0.8) enriched in the neurosensory retina for the 20 clusters with the smallest p-value.* 
+
+
