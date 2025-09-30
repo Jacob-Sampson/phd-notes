@@ -1,5 +1,14 @@
 # Relationship between RNA integrity number and other RNASeq QC metrics
 
+<!-- vim-markdown-toc GFM -->
+
+* [Introduction](#introduction)
+* [Results](#results)
+    * [PMI time and RIN](#pmi-time-and-rin)
+    * [5'/3' bias](#53-bias)
+
+<!-- vim-markdown-toc -->
+
 ## Introduction
 
 The METR-GT cohort has a relativley high PMI time (median = 40 hours). Therefore, we wanted to investigate whether this could compromise measures of RNA integrity (RNA Integrity Number) and other RNA sequencing QC metrics (such as 3'/5' bias or read length).
