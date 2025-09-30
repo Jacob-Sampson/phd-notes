@@ -51,4 +51,7 @@ The median 3'/5' bias in NSR samples was 0.5 (IQR=0.48-0.51), and in RPE was 0.5
 
 *Figure 4. The relationship betwen RNA Integrity Numbers and 3'/5' bias*
 
+### Read length
+There was not a noticeable relationship between RNA Integrity Numbers and read length (Fig 5). 
 
+![Fig5](images/RIN_vs_read_length.png)
