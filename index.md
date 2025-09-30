@@ -12,5 +12,5 @@ Fourth year PhD student in Human Genomics.
     - [Differential expression analysis](differential_expression_analysis.md)
         - [DeSeq and EdgeR analysis](notes_on_deseq.md)
     - [Disease eQTL properties](disease_eqtl_properties.md)
-
+    - [RNA-Seq QC metrics](additional_qc_stats.md)
 
