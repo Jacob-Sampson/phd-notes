@@ -11,6 +11,8 @@ The METR-GT cohort has a relativley high PMI time (median = 40 hours). Therefore
 The median RNA Integrity number for NSR samples is 7.9, and for RPE is 6.9 (Fig1). The RIN is greater or equal to 7 for 169 NSR samples and 82 RPE samples.
 There wasn't a noticeable decrease in RIN scores in samples with high PMI time (> 40 hours) (Fig2).  
 
+### 5'/3' bias
+
 To investigate if 5' bias could impact our results, we used the 3'/5' bias metric from RNASeQC. According to their documentation (https://github.com/getzlab/rnaseqc/blob/master/Metrics.md), this metric captures the ratio of sequencing depth between the 3' end of the gene (150 bp region) and the 5' end of the gene (150 bp region) for genes with a length greater than 600 bp and with at least 5 unambiguous reads.
 A gene with even coverage in both its 3' and 5' windows will have a bias of 0.5, values near 1 or 0 indicate degradation.
 
