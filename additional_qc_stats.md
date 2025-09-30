@@ -31,6 +31,7 @@ The median 3'/5' bias in NSR samples was 0.5 (IQR=0.48-0.51), and in RPE was 0.5
 
 <a name="fig3"></a>
 ![Fig 3](images/boxplot_3prime_bias.png)
+
 *Figure 3. 3'/5' bias scores for NSR and RPE samples*
 
 <a name="fig4"></a>
