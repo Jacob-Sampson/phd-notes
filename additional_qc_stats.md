@@ -13,14 +13,17 @@ A gene with even coverage in both its 3' and 5' windows will have a bias of 0.5,
 The median 3'/5' bias in NSR samples was ##, and in RPE was ## (Fig2). The samples with the highest 3' bias scores (indicating degradation at the 5' end) had lower RNA Integrity Numbers, but there were ## NSR and RPE samples where `RIN < 7` with a 3'/5' bias score within 0.4 and 0.6.
 
 ![Fig 1](images/RIN_boxplot.png)
+
 *Figure 1. RNA Integrity Number distribution for NSR and RPE samples in METR-GT cohort*
 
 
 ![Fig 2](images/boxplot_3prime_bias.png)
+
 *Figure 2. 3'/5' bias scores for NSR and RPE samples*
 
 
 ![Fig3](images/RIN_vs_3prime_bias.png)
+
 *Figure 3. The relationship betwen RNA Integrity Numbers and 3'/5' bias*
 
 
