@@ -6,6 +6,7 @@
 * [Results](#results)
     * [PMI time and RIN](#pmi-time-and-rin)
     * [5'/3' bias](#53-bias)
+    * [Read length](#read-length)
 
 <!-- vim-markdown-toc -->
 
