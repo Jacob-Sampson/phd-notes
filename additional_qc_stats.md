@@ -18,7 +18,7 @@ The METR-GT cohort has a relativley high PMI time (median = 40 hours). Therefore
 
 ### PMI time and RIN
 
-The RNA Integrity Number was available for 181/183 NSR samples and 169/176 RPE samples. The median RNA Integrity number for NSR samples is 7.9 (IQR=7.5,8.1), and for RPE is 6.9 (IQR=6.5,7.5) (Fig1). The RIN is greater or equal to 7 for 169 NSR samples and 82 RPE samples.
+The RNA Integrity Number was available for 181/183 NSR samples and 169/176 RPE samples. The median RNA Integrity number for NSR samples was 7.9 (IQR=7.5,8.1), and for RPE is 6.9 (IQR=6.5,7.5) (Fig1). The RIN is greater or equal to 7 for 169 NSR samples and 82 RPE samples.
 There wasn't a noticeable decrease in RIN scores in samples with high PMI time (> 40 hours) (Fig2).  
 
 <a name="fig1"></a>
