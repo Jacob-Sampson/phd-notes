@@ -15,18 +15,21 @@ The median 3'/5' bias in NSR samples was ##, and in RPE was ## (Fig2). The sampl
 <a name="fig1"></a>
 
 ![Fig 1](images/RIN_boxplot.png)
+
 *Figure 1. RNA Integrity Number distribution for NSR and RPE samples in METR-GT cohort*
 
 
 <a name="fig2"></a>
 
 ![Fig 2](images/boxplot_3prime_bias.png)
+
 *Figure 2. 3'/5' bias scores for NSR and RPE samples*
 
 
 <a name="fig3"></a>
 
 ![Fig3](images/RIN_vs_3prime_bias.png)
+
 *Figure 3. The relationship betwen RNA Integrity Numbers and 3'/5' bias*
 
 
