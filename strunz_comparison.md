@@ -23,14 +23,8 @@ For the LD analysis we used the R tool LDlink.
 
 ### Intersection between Strunz and METR eGenes
 
-Of the 3,007 eGenes identified by Strunz et al, we identified 2,561 eGenes in the METR cohort (Fig 1).
-
-<p align="center">
-  <img src="images/metr_egenes_intersect_strunz.png" width="35%">
-  <img src="images/strunz_top_eQTL_variant_overlap.png" width="55%">
-</p>
-
-We then investigated the overlap between shared top eQTL variants for the eGenes identified in both studies. 
+Of the 3,007 eGenes identified by Strunz et al, we identified 2,561 eGenes in the METR cohort (Fig 1A).
+We then investigated the overlap between shared top eQTL variants for the eGenes identified in both studies (Fig1B). 
 
 |    | category                 |   Number_eQTLs |
 |---:|:-------------------------|---------------:|
@@ -39,5 +33,9 @@ We then investigated the overlap between shared top eQTL variants for the eGenes
 |  2 | LD score unavailable     |            631 |
 |  3 | Novel METR-NSR top eQTLs |            828 |
 
-<img src="images/strunz_top_eQTL_variant_overlap.png" width = 500/>
 
+<p align="center">
+  <img src="images/metr_egenes_intersect_strunz.png" width="35%">
+  <img src="images/strunz_top_eQTL_variant_overlap.png" width="55%">
+</p>
+*Figure 1. A. Overlap between eGenes in Strunz et al (2020) and METR-NSR. B. For the 2,561 eGenes shared between both studies, we calculated the overlap between the top eQTL variants for each eGene.* 
