@@ -25,3 +25,12 @@ Each subset of eVariants and matched control variants was intersected with the c
 
 We then calculated the relative enrichment as the ratio of eVariants to control variants which overlapped each type of cCRE.
 For each cCRE type we then calculated the mean relative enrichment and the 95% confidence interval. If there was no relative enrichment, we would expect the mean score to equal 1. Therefore, to calculate significance p-values from the bootstrapped results we created a null distribution where mean = 1 and std. deviation = std. deviation of the bootstrapped result set. We then calculated the Z-score between the observed bootstrapped mean and the mean of the null distribution.
+
+## Results
+
+METR-eVariants were enriched in cell-type agnostic promoters (`p= 8.05×10-19`) and proximal enhancers (`p = 8.48×10-26`), compared to control variants matched for allele frequency and gene density.
+There was no enrichment of eVariants in distal enhancers, CTCF binding sites or DNase-H3K4me3 sites (Figure 1).
+When stratified by cell-specific regulatory regions, bootstrapping analysis indicated a significant enrichment of METR-eVariants in NSR-specific (p-value = 4.52×10-28) and RPE-specific cCREs (p-value = 8.74×10-10) from Cherry et al. (2020) compared to control variants matched for allele frequency and gene density (number of gene TSSs within 1Mb of variant).
+Moreover, when comparing the overlap of METR-eQTL variants to scATACseq peaks from Wang et al. (2023), we observed an enrichment of METR-eQTL variants in chromatin-accessible regions from all the retina cell types we queried: rod cells (p-value = 6.69 ×10-58), cone cells (p-value = 6.58 ×10-57), astrocytes (p-value = 7.78 ×10-25), horizontal cells (p-value = 2.31 ×10-21) retinal ganglion cells (p-value = 2.21 ×10-20), Muller glia (p-value = 5.35 ×10-19), bipolar cells (p-value = 7.02 ×10-18) and amacrine cells (p-value = 2.08 ×10-6).
+Additionally, non-eye cCREs from adult tissues in EpiMap were also enriched for METR-eVariants, although the enrichment was lower than in the NSR and RPE (Figure 3B). 
+
