@@ -27,3 +27,13 @@ Of the 3,007 eGenes identified by Strunz et al, we identified 2,561 eGenes in th
 
 ![Fig 1](images/metr_egenes_intersect_strunz.png)
 
+We then investigated the overlap between shared top eQTL variants for the eGenes identified in both studies. 
+
+|    | category                 |   Number_eQTLs |
+|---:|:-------------------------|---------------:|
+|  0 | Identical top eQTL       |            205 |
+|  1 | Top eQTLs in high LD     |            867 |
+|  2 | LD score unavailable     |            631 |
+|  3 | Novel METR-NSR top eQTLs |            828 |
+
+![Fig 2](images/strunz_top_eQTL_variant_overlap.png)
