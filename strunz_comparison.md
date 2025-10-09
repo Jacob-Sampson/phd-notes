@@ -21,3 +21,9 @@ For the LD analysis we used the R tool LDlink.
 | Number of eGenes | 3,007 |
 | Number of eVariants | 403,151 |
 
+### Intersection between Strunz and METR eGenes
+
+Of the 3,007 eGenes identified by Strunz et al, we identified 2,561 eGenes in the METR cohort (Fig 1).
+
+![Fig 1](images/metr_egenes_intersect_strunz.png)
+
