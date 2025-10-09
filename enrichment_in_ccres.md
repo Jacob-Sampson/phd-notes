@@ -2,6 +2,10 @@
 
 ## Introduction
 
+We wanted to calculate if our eQTL variants were enriched in known regulatory elements.
+To do this we calculated the number of eQTL variants which overlapped with known candidate cis-regulatory elements from different cell/tissue types divided by the number of non-eQTL variants from the METR cohort with a similar allele frequency and proximity to gene TSSs. 
+We used bootstrapping to calculate 95% confidence intervals and to calculate significance.
+
 ## Methods
 
 ### cCRE datasets
