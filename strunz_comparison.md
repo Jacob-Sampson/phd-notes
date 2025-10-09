@@ -25,7 +25,10 @@ For the LD analysis we used the R tool LDlink.
 
 Of the 3,007 eGenes identified by Strunz et al, we identified 2,561 eGenes in the METR cohort (Fig 1).
 
-![Fig 1](images/metr_egenes_intersect_strunz.png)
+<p align="center">
+  <img src="images/metr_egenes_intersect_strunz.png" width="45%">
+  <img src="images/strunz_top_eQTL_variant_overlap.png" width="45%">
+</p>
 
 We then investigated the overlap between shared top eQTL variants for the eGenes identified in both studies. 
 
