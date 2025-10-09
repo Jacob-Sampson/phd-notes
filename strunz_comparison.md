@@ -36,4 +36,5 @@ We then investigated the overlap between shared top eQTL variants for the eGenes
 |  2 | LD score unavailable     |            631 |
 |  3 | Novel METR-NSR top eQTLs |            828 |
 
-![Fig 2](images/strunz_top_eQTL_variant_overlap.png)
+![Fig 2](images/strunz_top_eQTL_variant_overlap.png | width=200)
+
