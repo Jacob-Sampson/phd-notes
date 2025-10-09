@@ -15,6 +15,7 @@ For the LD analysis we used the R tool LDlink.
 ## Results
 
 ### Description of Strunz et al. eQTLs
+
 | Strunz et al. (2020) | Count |
 | --- | --- |
 | Number of eQTLs | `580,170` | 
