@@ -15,7 +15,8 @@ For the LD analysis we used the R tool LDlink.
 ## Results
 
 ### Description of Strunz et al. eQTLs
-
+| | Count |
+| --- | --- |
 | Number of eQTLs | 580,170 | 
 | Number of eGenes | 3,007 |
 | Number of eVariants | 403,151 |
