@@ -10,8 +10,13 @@ We downloaded eQTLs from Strunz et al. here: https://myfiles.uni-regensburg.de/s
 
 We intersected the eGenes and eVariants from Strunz with METR-NSR eQTLs. To intersect eVariants we used dbSNP rsIDs.
 For eGenes shared between METR-NSR and Stunz we proceeded to determine if the eGenes shared the top eVariant or if the top METR eVariant was in high LD with the top Strunz eVariant (`r2 > 0.8`). 
+For the LD analysis we used the R tool LDlink.
 
 ## Results
 
 ### Description of Strunz et al. eQTLs
+
+| Number of eQTLs | 580,170 | 
+| Number of eGenes | 3,007 |
+| Number of eVariants | 403,151 |
 
