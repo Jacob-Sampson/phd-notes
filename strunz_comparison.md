@@ -1,5 +1,16 @@
 # Comparison between METR-eQTL dataset and eQTLs from Stunz et al. (2020)
 
+
+<!-- vim-markdown-toc GFM -->
+
+* [Introduction](#introduction)
+* [Methods](#methods)
+* [Results](#results)
+    * [Description of Strunz et al. eQTLs](#description-of-strunz-et-al-eqtls)
+    * [Intersection between Strunz and METR eGenes](#intersection-between-strunz-and-metr-egenes)
+
+<!-- vim-markdown-toc -->
+
 ## Introduction
 
 Following comments by the reviewers of our manuscript, we thought it would be appropriate to extend the METR eQTL comparison to an additional retina eQTL study by Strunz et al. (2020).
