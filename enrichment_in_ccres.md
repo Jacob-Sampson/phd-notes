@@ -38,7 +38,7 @@ Moreover, when comparing the overlap of METR-eQTL variants to scATACseq peaks fr
 Additionally, non-eye cCREs from adult tissues in EpiMap were also enriched for METR-eVariants, although the enrichment was lower than in the NSR and RPE (Figure 3B). 
 
 
-<img src="images/encode_ccre_type_enrichment.png" width="50%">
+<img src="images/encode_ccre_type_enrichment.png" width="40%" align="center">
 
 *Figure 1. Enrichment of METR eQTL variants in ENCODE regulatory elements*
 
