@@ -14,4 +14,4 @@ Fourth year PhD student in Human Genomics.
     - [Disease eQTL properties](disease_eqtl_properties.md)
     - [RNA-Seq QC metrics](additional_qc_stats.md)
     - Comparison between METR eQTLs and other studies
-        -[Comparison with Strunz et al](strunz_comparison.md)
+        - [Comparison with Strunz et al](strunz_comparison.md)
