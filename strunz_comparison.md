@@ -17,9 +17,9 @@ For the LD analysis we used the R tool LDlink.
 ### Description of Strunz et al. eQTLs
 | Strunz et al. (2020) | Count |
 | --- | --- |
-| Number of eQTLs | 580,170 | 
-| Number of eGenes | 3,007 |
-| Number of eVariants | 403,151 |
+| Number of eQTLs | `580,170` | 
+| Number of eGenes | `3,007` |
+| Number of eVariants | `403,151` |
 
 ### Intersection between Strunz and METR eGenes
 
@@ -40,3 +40,5 @@ We then investigated the overlap between shared top eQTL variants for the eGenes
 </p>
 
 *Figure 1. A. Overlap between eGenes in Strunz et al (2020) and METR-NSR. B. For the 2,561 eGenes shared between both studies, we calculated the overlap between the top eQTL variants for each eGene.* 
+
+
